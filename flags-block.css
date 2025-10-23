@@ -1,0 +1,37 @@
+.flag.ireland{
+  background:linear-gradient(90deg,#009A63 0 33.333%,#FFFFFF 33.333% 66.666%,#FF823D 66.666% 100%);
+}
+.flag.ireland-provinces {
+  position: relative;
+  background: linear-gradient(90deg, #009A63 0 50%, #fff 50% 100%);
+}
+
+.flag.ireland-provinces::before {
+  content:"";
+  position:absolute;
+  top:0; left:0; right:0; bottom:0;
+  background: linear-gradient(180deg, #002B7F 0 50%, #FF823D 50% 100%);
+  mix-blend-mode: overlay;
+}
+
+/* Bright White  */
+.flag.italy2{
+  background:linear-gradient(90deg,#009246 0 33.333%,#f1f2f1 33.333% 66.666%,#CE2B37 66.666% 100%);
+}
+
+/* Trans.White (translucent/transparent white)  */
+.flag.russia{
+  background:linear-gradient(180deg,#ffffff 0 33.333%,#0000ff 33.333% 66.666%,#ff0000 66.666% 100%);
+}
+
+.flag.france{
+  background:linear-gradient(90deg,#0055A4 0 33.333%,#fff 33.333% 66.666%,#EF4135 66.666% 100%);
+}
+
+.flag.italy{
+  background:linear-gradient(90deg,#009246 0 33.333%,#fff 33.333% 66.666%,#CE2B37 66.666% 100%);
+}
+
+.flag.netherlands{
+  background:linear-gradient(180deg,#AE1C28 0 33.333%,#fff 33.333% 66.666%,#21468B 66.666% 100%);
+}
